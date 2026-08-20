@@ -126,7 +126,7 @@ A popular restaurant wants to manage reservations, orders, and billing.
 6.  Bill       -  Bill (PK), Reservation ID (FK), Payment Details / Attributes
 
 ### Relationships and Constraints
-   Relationship            Cardinality  Participation          Notes
+   Relationship            |Cardinality|  Participation     |    Notes
 1. Customer – Reservation  | 1 : M  | Total on Reservation  | Each reservation must be linked to a customer.
 2. Reservation – Order     | 1 : M  | Partial               | A reservation may have multiple food orders.
 3. Order – Dish            | M : N  | Total on Order        | An order can contain multiple dishes, and dishes can appear in multiple orders.
